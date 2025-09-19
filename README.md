@@ -34,7 +34,7 @@ The solution is structured for **production readiness**, including validation, l
 # 🎨 Frontend – React + TypeScript (Vite)
 
 ## 📌 Overview
-This frontend application is built with *React 18 + TypeScript, powered by **Vite* for lightning-fast development and optimized production builds.  
+This frontend application is built with *React 19 + TypeScript, powered by **Vite* for lightning-fast development and optimized production builds.  
 It follows a *modular and scalable architecture, integrates seamlessly with the **ASP.NET Core Web API backend, and provides a responsive UI with **TailwindCSS*.
 
 The project is production-ready, including *API integration with Axios, routing, state management, and environment-based configurations*.
