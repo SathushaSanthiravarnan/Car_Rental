@@ -31,6 +31,39 @@ The solution is structured for **production readiness**, including validation, l
 -  **Testing** with xUnit (unit & integration tests)  
 -  **Docker Support** (API + SQL Server in docker-compose)  
 
+# 🎨 Frontend – React + TypeScript (Vite)
+
+## 📌 Overview
+This frontend application is built with *React 18 + TypeScript, powered by **Vite* for lightning-fast development and optimized production builds.  
+It follows a *modular and scalable architecture, integrates seamlessly with the **ASP.NET Core Web API backend, and provides a responsive UI with **TailwindCSS*.
+
+The project is production-ready, including *API integration with Axios, routing, state management, and environment-based configurations*.
+
+---
+
+## 🏗 Architecture
+
+- *Components Layer* → Reusable UI components  
+- *Pages Layer* → Page-level views (Dashboard, Cars, Bookings, etc.)  
+- *Routes Layer* → React Router configuration for navigation  
+- *Services Layer* → API calls using Axios (with interceptors for authentication)  
+- *Hooks Layer* → Custom React hooks for shared logic  
+- *Styles Layer* → TailwindCSS and global styles  
+
+---
+
+## ✨ Features
+
+- ⚛ *React 18 + TypeScript* – Strongly typed, modern UI  
+- ⚡ *Vite* – Lightning-fast bundler & HMR  
+- 🛣 *React Router v6* – Client-side navigation  
+- 🌐 *Axios* – API integration with interceptors  
+- 🎨 *TailwindCSS* – Utility-first responsive design  
+- 🔑 *Authentication support* – JWT & Google OAuth integration with backend  
+- 📱 *Responsive UI* – Works on mobile, tablet, and desktop  
+- 🧩 *Reusable component library* – Buttons, forms, modals, etc.  
+- 📦 *Environment-based config* – .env support (VITE_API_BASE_URL)
+
 ---
 
 ## 🗄️ Database
