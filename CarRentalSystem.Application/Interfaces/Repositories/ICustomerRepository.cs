@@ -1,0 +1,15 @@
+﻿using CarRentalSystem.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CarRentalSystem.Application.Interfaces.Repositories
+{
+    public interface ICustomerRepository : IRepository<Customer>
+    {
+        IQueryable<Customer> Query();
+        Task<Customer?> FindByUserIdAsync(Guid userId, CancellationToken ct = default);
+    }
+}
